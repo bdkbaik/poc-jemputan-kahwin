@@ -19,23 +19,30 @@ html {
   padding-bottom: 30px;
 }
 
-.navbar-item {
-  line-height: 38px;
-  font-weight: 600;
-  text-transform: ;
-  letter-spacing: 1px;
-  font-size: 1rem;
-  box-shadow:  ;
+.navbar2 {
+  overflow: hidden;
+  background-color: #343a40;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  text-align: center;
 }
 
-.navbar-item.is-active{
-  border-bottom: 2px solid #996E6D;
+.navbar2 a {
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-.a.navbar-item{
-  font-color: #996E6D;
+.navbar2 a:hover {
+  background-color: #000;
 }
 
+.active {
+  background-color: #04AA6D;
+}
 
 .hero {
   background-image: url(https://picsum.photos/id/25/1920/1080);
@@ -565,7 +572,7 @@ body.preloader-site {
 
 
 .foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-kang-emil.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/Nabil-daeng-kang-emil.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -574,7 +581,7 @@ body.preloader-site {
 
 
 .foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-cashbac.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/Nabil-daeng-cashbac.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -582,7 +589,7 @@ body.preloader-site {
 }
 
 .foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-selfie.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/Nabil-daeng-selfie.jpg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -590,7 +597,7 @@ body.preloader-site {
 }
 
 .foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-lamaran.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/Nabil-daeng-lamaran.jpg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -598,7 +605,7 @@ body.preloader-site {
 }
 
 .foto5 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-red-car.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/Nabil-daeng-red-car.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -607,7 +614,7 @@ body.preloader-site {
 
 
 .foto6 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-engagement-ami.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/Nabil-daeng-engagement-ami.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
